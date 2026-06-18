@@ -24,7 +24,7 @@ stage('Test'){
 
 stage('Run application'){
   steps{
-   sh 'java -jar target/myp4app-1.0-SNAPSHOT.jar'
+   sh 'mvn exec:java -Dexec.mainClass="com.example.App"'
 }
 
 }
