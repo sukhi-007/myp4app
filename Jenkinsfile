@@ -25,7 +25,7 @@ stage('Test'){
 
 
 }
-}
+
 post{
 success{
  echo "build successful"
