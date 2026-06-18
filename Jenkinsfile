@@ -22,10 +22,7 @@ stage('Test'){
 }
 }
 
-stage('Run application'){
-  steps{
-   sh 'mvn exec:java -Dexec.mainClass="com.example.App"'
-}
+
 
 }
 }
